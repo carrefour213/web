@@ -10,7 +10,7 @@ export const POST = async (req: NextRequest) => {
 
     const { data, error } = await resend.emails.send({
       from: 'Carrefour <onboarding@resend.dev>',
-      to: 'a_boudjemaa@estin.dz',
+      to: 'carrefourlimited@gmail.com',
       subject: "New contact message from Carrefour website",
       react: MessageEmailTemplate(values) as React.ReactElement,
     });
