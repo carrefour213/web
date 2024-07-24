@@ -39,7 +39,9 @@ async function Footer() {
                   <span><CiPhone className="text-2xl" /></span>
                   <span >Phone : </span>
                 </span>
-                <span className="text-gray-400"><Tab />+213562332146</span>
+                <span className="text-gray-400"><Tab />+213 5 62 33 21 46</span>
+                <br />
+                <span className="text-gray-400"><Tab />+213 7 92 04 32 18</span>
               </li>
               <li className="pt-5">
                 <span className="flex gap-2" >
