@@ -67,7 +67,7 @@ const Hero = () => {
 
     useEffect(() => {
         const fetchProducts = async () => {
-            const productIds = ["clywjm64r0006xghebtjp5n8s", "clywjm64r0006xghebtjp5n8s"]; // Example product names
+            const productIds = ["clyzp90e8000b8dnoowrzrxd9", "clyzwmy3p000312jf17ewt1ye", "clyzpbloj000d8dnohjryb7pr"]; // Example product names
             const fetchedProducts = await Promise.all(productIds.map(name => getProductsById(name)));
             setProducts(fetchedProducts.filter((product: (Product | null)) => product !== null) as Product[]);
         };
@@ -77,7 +77,7 @@ const Hero = () => {
     return (
         <section className="flex gap-5 mb-20">
             <Aside />
-            {/* <Carousel
+            <Carousel
                 plugins={[
                     Autoplay({
                         delay: 4000,
@@ -100,7 +100,7 @@ const Hero = () => {
                         ))}
                     </CarouselThumbsContainer>
                 </div>
-            </Carousel> */}
+            </Carousel>
         </section>
     );
 };
