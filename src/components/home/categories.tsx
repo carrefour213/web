@@ -27,6 +27,8 @@ const categories = [
     { name: "Short", icon: <Short  />, slug: "/all-products/short" },
     { name: "Hoodies", icon: <Hoodies  />, slug: "/all-products/hoodies" },
     { name: "Casquette", icon: <Casquette  />, slug: "/all-products/casquette" },
+    { name: "Ensembles", icon: <Casquette  />, slug: "/all-products/ensembles" },
+    { name: "Autre", icon: <Casquette  />, slug: "/all-products/autre" },
 ];
 
 function Categories() {

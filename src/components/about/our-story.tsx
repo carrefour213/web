@@ -11,7 +11,7 @@ function OurStory() {
             <p>Carrefour propose plus d'un mille de produits à offrir, en croissance rapide. Carrefour offre une gamme diversifiée de catégories incluant l'impression à la demande</p>
         </div>
         <div className="flex-1">
-            <Image src={'/images/about.png'} alt="about img" width={1000} height={1000} className="w-full"/>
+            <Image src={'/about.png'} alt="about img" width={1000} height={1000} className="w-full"/>
         </div>
     </section>
   );
