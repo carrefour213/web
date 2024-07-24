@@ -77,7 +77,7 @@ const Hero = () => {
     return (
         <section className="flex gap-5 mb-20">
             <Aside />
-            <Carousel
+            {/* <Carousel
                 plugins={[
                     Autoplay({
                         delay: 4000,
@@ -100,7 +100,7 @@ const Hero = () => {
                         ))}
                     </CarouselThumbsContainer>
                 </div>
-            </Carousel>
+            </Carousel> */}
         </section>
     );
 };

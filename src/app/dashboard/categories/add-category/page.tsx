@@ -7,9 +7,9 @@ function AddCategory() {
     return (
         <Suspense>
             <Header title={"Add New Category"} />
-            {/* <div className=" bg-white p-4 rounded-md">
+            <div className=" bg-white p-4 rounded-md">
                 <CategoryForm />
-            </div> */}
+            </div>
         </Suspense>
     );
 }

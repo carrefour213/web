@@ -17,7 +17,7 @@ async function NewArrival() {
             <SectionTitle title="Featured" color={"violet"} />
             <h1 className="text-3xl font-semibold mb-16">Nouveauté</h1>
             <div className="parent ">
-                <div className="div1 bg-black flex justify-center items-center relative text-center md:text-left">
+                {/* <div className="div1 bg-black flex justify-center items-center relative text-center md:text-left">
                     <img src={`${JSON.parse(product[0].image as string)[0].url}`} alt="" />
                     <div className="absolute bottom-10 md:bottom-20">
                         <h2 className="text-xl md:text-3xl mb-1 md:mb-3">David Michelangelo ”The Real”</h2>
@@ -28,7 +28,7 @@ async function NewArrival() {
                             <span className=" absolute w-full h-0.5 bg-white bottom-0"></span>
                         </Link>
                     </div>
-                </div>
+                </div> */}
                 <div className="div2 bg-black">
 
                 </div>
